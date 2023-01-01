@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+    background-color: rgb(160, 158, 158);
+}
+
+.section1{
+    background-color: rgb(56, 54, 54);
+    padding: 1em;
+    font-style: inherit;
+}
+
+.section1 h1 {
+    margin: 0em;
+    color: white;
+}
+
+.section1 h2{
+    margin: 0em;
+    color: white;
+}
+
+.float-container {
+    display: flex;
+    width: 50%;
+  }
+  .float-child {
+    flex: 1;
+  }
+  .float-child:first-child {
+    margin-right: 20px;
+  }
+
+.send-cancel{
+    margin-top: 20px;
+}
+
+.section2{
+    padding: 1em;
+    
+}
+
+.send-cancel input {
+    cursor: pointer;
+    height: 40px;
+    width: 60px;
+}
+
+.section2 .subject{
+    padding: 3px;
+    width: 500px;
+    height: 20px;
+    padding-bottom: 20px;
+}
+
+.section2 .help{
+    padding: 3px;
+    width: 500px;
+    height: 20px;
+    padding-bottom: 80px;
+}
+
+#critical {
+    width: 200px;
+}
+
+#myfile{
+    cursor: pointer;
+}
+
+.section3{
+    padding: 1em;
+}
